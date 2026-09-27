@@ -129,6 +129,15 @@ useEffect(() => {
       </button>
     </div>
   </section>
+  <section className='showcase' >
+<p>Elevate your business with our innovative solutions</p>
+<h1>Aiero</h1>
+<p className='creative'>Creative solutions for your business</p>
+<button className="watch-video">
+  <span className="play-icon">▶</span>
+  Watch Video
+</button>
+  </section>
   <div style={{ height: '20000px' }}></div>
   </>)
 }
