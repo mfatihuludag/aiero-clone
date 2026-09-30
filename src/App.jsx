@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './App.css'
 import Dropdown2 from './DropDown2'
 import previewImg from './assets/dark-version.png'
+import leftimg from './assets/layer.png'
 
 
 function App() {
@@ -130,7 +131,7 @@ useEffect(() => {
     </div>
   </section>
   <section className='showcase' >
-<p>Elevate your business with our innovative solutions</p>
+<p>Elevate your <br /> business with our <br /> innovative solutions</p>
 <h1>Aiero</h1>
 <p className='creative'>Creative solutions for your business</p>
 <button className="watch-video">
@@ -138,6 +139,10 @@ useEffect(() => {
   Watch Video
 </button>
   </section>
+  <section className="tinker-section">
+  <img src={leftimg} alt="layer" className="leftimg"/>
+  <h2 className='neural-text'>Tinker with a <span className="gradient-text nn-highlight">Neural Network right here</span> in your browser. Don’t worry, you can’t break it. We Promise.
+    </h2></section>
   <div style={{ height: '20000px' }}></div>
   </>)
 }
