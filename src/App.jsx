@@ -3,6 +3,10 @@ import './App.css'
 import Dropdown2 from './DropDown2'
 import previewImg from './assets/dark-version.png'
 import leftimg from './assets/layer.png'
+import logo1 from './assets/logo1.png'
+import logo2 from './assets/logo2.png'
+import logo3 from './assets/logo3.png'
+import logo4 from './assets/logo4.png'
 
 
 function App() {
@@ -142,7 +146,26 @@ useEffect(() => {
   <section className="tinker-section">
   <img src={leftimg} alt="layer" className="leftimg"/>
   <h2 className='neural-text'>Tinker with a <span className="gradient-text nn-highlight">Neural Network right here</span> in your browser. Don’t worry, you can’t break it. We Promise.
-    </h2></section>
+    </h2>
+ <div className="logo-marquee">
+  <div className="logo-track">
+    <div className="logo-item"><img src={logo1} alt="" /></div>
+    <div className="logo-item"><img src={logo2} alt="" /></div>
+    <div className="logo-item"><img src={logo3} alt="" /></div>
+    <div className="logo-item"><img src={logo4} alt="" /></div>
+    {/* set 2 */}
+    <div className="logo-item"><img src={logo1} alt="" /></div>
+    <div className="logo-item"><img src={logo2} alt="" /></div>
+    <div className="logo-item"><img src={logo3} alt="" /></div>
+    <div className="logo-item"><img src={logo4} alt="" /></div>
+    {/* set3 */}
+    <div className="logo-item"><img src={logo1} alt="" /></div>
+    <div className="logo-item"><img src={logo2} alt="" /></div>
+    <div className="logo-item"><img src={logo3} alt="" /></div>
+    <div className="logo-item"><img src={logo4} alt="" /></div>
+  </div>
+</div>
+</section>
   <div style={{ height: '20000px' }}></div>
   </>)
 }

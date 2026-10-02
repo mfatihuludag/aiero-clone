@@ -366,3 +366,27 @@ body {
   font-weight: 400;
   max-width: 900px;
 }
+.logo-marquee {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 50px;
+}
+.logo-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 6s steps(4) infinite;
+}
+.logo-item {
+  width: 220px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-item img {
+  height: 50px;
+  width: auto;
+}
+@keyframes scroll {
+  to { transform: translateX(-33.33%); }
+}
